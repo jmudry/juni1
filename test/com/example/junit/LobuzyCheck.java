@@ -65,6 +65,11 @@ public class LobuzyCheck {
 	public static Collection<Object[]> addingTest() {
 		return Arrays.asList(
 				new Object[][]{
+						/*						
+ 						cyfrokrad(Integer liczba)
+						hultajchochla(Integer liczba)
+						nieksztaltek(Integer liczba)	
+						*/
 						{	
 							123,Arrays.asList(12,13,23),
 							123,Arrays.asList(123,132,213,231,312,321),
@@ -74,6 +79,11 @@ public class LobuzyCheck {
 							1, null, 
 							1, Arrays.asList(1),
 							33816, Arrays.asList(33876,33819,88816) // coś musi zamienić
+						},
+						{	
+							10, Arrays.asList(1,0), 
+							11, Arrays.asList(11),
+							2457890, Arrays.asList(2457890) // nic nie może zmienić
 						} 
 				});
 		

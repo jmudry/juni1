@@ -1,3 +1,4 @@
+/*
 package com.example.junit;
 import org.junit.runners.Suite;
 import org.junit.runner.RunWith;
@@ -9,6 +10,6 @@ import org.junit.runner.RunWith;
 })
 public class CalcTestSuite {
 	
-	
-	
 }
+
+*/

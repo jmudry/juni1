@@ -2,8 +2,6 @@ package com.example.junit;
 import org.junit.*;
 
 import com.example.junit.Calc;
-
-import junit.framework.TestCase;
 import static org.junit.Assert.*;
 
 public class CalcCheck2 {
