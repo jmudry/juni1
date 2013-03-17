@@ -58,11 +58,5 @@ public class Lobuzy {
 		return Integer.parseInt(strLiczba);	
 		
 	}
-	
-	public static void main (String[]arg){   
-		System.out.println("cyfrokrad(123456) = " + cyfrokrad(1));
-		System.out.println("hultajchochla(123456) = " + hultajchochla(1));
-		System.out.println("nieksztaltek(11233456) = " + nieksztaltek(1));		
-    } 
 
 }

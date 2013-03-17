@@ -34,9 +34,7 @@ public class LobuzyCheck {
 
 	@Test
 	public void checkUsuwaniaCyfrokrad () {	
-		System.out.println("checkUsuwaniaCyfrokrad (): liczba = " + liczba + ", wyniki = " + wyniki);
 		Integer wynik = Lobuzy.cyfrokrad(liczba);
-		System.out.println("wynik = " + wynik);
 		if (liczba < 10) {
 			assertEquals(null, wynik);
 		} else {
@@ -47,17 +45,13 @@ public class LobuzyCheck {
 	
 	@Test
 	public void checkHultajchochla() {	
-		System.out.println("hultajchochla(): liczba = " + liczba1 + ", wyniki = " + wyniki1);
 		Integer wynik = Lobuzy.hultajchochla(liczba1);
-		System.out.println("wynik = " + wynik);
 		assertThat(wyniki1, hasItem(wynik));		
 	}
 	
 	@Test
 	public void checkNieksztaltek() {	
-		System.out.println("nieksztaltek (): liczba = " + liczba2 + ", wyniki = " + wyniki2);
 		Integer wynik = Lobuzy.nieksztaltek(liczba2);
-		System.out.println("wynik = " + wynik);
 		assertThat(wyniki2, hasItem(wynik));		
 	}
 	
